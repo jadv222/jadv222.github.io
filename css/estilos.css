@@ -1,0 +1,281 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /*Conseguimos que las cajas no se desborden*/
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.padre{
+    display: flex;
+   /*  flex-direction: column;
+    flex-wrap: nowrap; */
+    flex-flow: column nowrap;
+}
+
+.header{
+    background: url(../img/camera-g11f98e922_1920.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 100vh;
+}
+    .menu{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        background: rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255,0.5);
+    }
+    a{
+        text-decoration: none;
+    }
+        .logo{
+            flex: 1 1 auto;
+        }
+            .logo a{
+                color: #fff;
+                font-size: 30px;
+            }
+            .logo a:hover{
+                color: #343434;
+            }
+        .nav{
+            flex: 5 3 auto;
+        }
+            .nav a{
+                color: #fff;
+                font-size: 11px;
+                text-transform: uppercase;
+                padding: 0px 10px;
+                letter-spacing: 2px;
+            }
+            .nav a:hover{
+                color: #343434;
+            }
+        .social{
+            flex: 1 1 auto;
+            display: flex;
+            flex-flow: row nowrap;
+       }
+            .social a{
+                color: #fff;
+                font-size: 18px;
+                padding: 0px 5px;
+            }
+            .social a:hover{
+                color: #343434;
+            }
+    .textoprincipal{
+        height: 580px;
+        display: flex;
+        align-items: center;
+    }
+    h1{
+        font-family: 'Lora',sans-serif;
+        font-size: 21px;
+        color: #fff;
+        font-weight: 300;
+        text-align: center;
+        line-height: 1.6;
+        
+    }
+   
+    .section{
+        background-color: darkolivegreen;
+        display: flex;
+    }
+        .articulos{
+            background-color: khaki;
+            display: flex;
+            flex-flow: row wrap;
+            flex: 2 1 70%;
+        }
+            .article{
+                color: #444;
+                font-size: 13px;
+                letter-spacing: 1px;
+                margin: 10px 10px 10px 10px;
+                flex: 1 1 45%;
+                background-color: khaki;
+            }
+                .article h3{
+                    color: #fff;
+                    font-size: 13px;
+                    padding: 10px 0px;
+                    margin-top: -80px;
+                }
+                .article h2{
+                    color: #444;
+                    font-size: 25px;
+                    text-transform: uppercase;
+                    padding: 0px 0px 10px 0px;
+                }
+                .article img{
+                    width: 100%;
+                }
+                .article a{
+                    color: #fff;
+                    font-size: 13px;
+                    padding: 10px;
+                    background: #000;
+                    margin: 10px 0px;
+                    display: inline-block;
+                }
+                .article a:hover{
+                    background: #546cc3;
+                }
+            .navegacion{
+                background: #000;
+                flex: 1 1 100%;
+                margin: 10px 10px 0px 0px;
+            }
+                .navegacion a{
+                    color: #fff;
+                    font-size: 11px;
+                    text-transform: uppercase;
+                    padding: 0px 10px;
+                    letter-spacing: 2px;
+                }
+    .aside{
+        flex: 1 1 25%;
+        margin: 10px 5px 10px 30px;
+    }
+        .aside h4{
+            background: #000;
+            color: #fff;
+            padding: 10px;
+            text-transform: uppercase;
+        }
+        .aside img{
+            width: 100%;
+        }
+        .nosotros2{
+            background-color: darkolivegreen;
+        }
+        .nosotros2 h2{
+            height: 100px;
+            display: flex;
+            align-items: initial;
+            justify-content: center;
+        }
+        .nosotros2 p{
+            justify-content: center;
+            display: flex;
+            text-align: center;
+        }
+        .servicios2{
+            background-color: darkolivegreen;
+
+        }
+        .servicios2 h2{
+            height: 100px;
+            display: flex;
+            align-items: initial;
+            justify-content: center;
+        }
+        .servicios2 p{
+            justify-content: center;
+            display: flex;
+            text-align: center;
+        }
+        .contactos2{
+            background-color: darkolivegreen;
+        }
+        .contactos2 h2{
+            height: 100px;
+            display: flex;
+            align-items: initial;
+            justify-content: center;
+        }
+        .contactos2 h3{
+            height: 100px;
+            display: flex;
+            align-items: initial;
+            justify-content: center;
+        }
+        .wave{
+            background-color: darkolivegreen;
+        }
+        
+.footer{
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.footer p{
+    color: #fff;
+}
+
+
+    .pie{
+        text-align: center;
+    }
+    .pie a{
+        color: #000;
+        font-size: 11px;
+        text-transform: uppercase;
+        padding: 0px 10px;
+        letter-spacing: 2px;
+    }
+.margen-interno{
+    padding: 0px 50px;
+}
+form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 400px;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+
+    /*Vamos a hacer que de 0 a 800px aplique estos estilos*/
+    @media all and (max-width:800px){
+        .section{
+            flex-direction: column;
+        }
+        .aside{
+            display: flex;
+            justify-content: center;
+        }
+        .menu{
+            flex-direction: column;
+            height: auto;
+        }
+    }
+    @media all and (max-width:600px){
+        .articulos{
+            flex-direction: column;
+        }
+    }
+    @media all and (max-width:400px){
+        .aside{
+            flex-direction: column;
+        }
+    }

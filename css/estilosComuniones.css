@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /*Conseguimos que las cajas no se desborden*/
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.padre{
+    display: flex;
+   /*  flex-direction: column;
+    flex-wrap: nowrap; */
+    flex-flow: column nowrap;
+}
+
+.header{
+    background: url(../img/first-communion-gb446f636f_1920.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 100vh;
+}
+    .menu{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        background: rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255,0.5);
+    }
+    a{
+        text-decoration: none;
+    }
+        .logo{
+            flex: 1 1 auto;
+        }
+            .logo a{
+                color: #fff;
+                font-size: 30px;
+            }
+            .logo a:hover{
+                color: #343434;
+            }
+        .nav{
+            flex: 5 3 auto;
+        }
+            .nav a{
+                color: #fff;
+                font-size: 11px;
+                text-transform: uppercase;
+                padding: 0px 10px;
+                letter-spacing: 2px;
+            }
+            .nav a:hover{
+                color: #343434;
+            }
+        .social{
+            flex: 1 1 auto;
+            display: flex;
+            flex-flow: row nowrap;
+       }
+            .social a{
+                color: #fff;
+                font-size: 18px;
+                padding: 0px 5px;
+            }
+            .social a:hover{
+                color: #343434;
+            }
+    .textoprincipal{
+        height: 580px;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        
+     
+    }
+    h1{
+        font-family: 'Lora',sans-serif;
+        font-size: 21px;
+        color: #fff;
+        font-weight: 300;
+        text-align: center;
+        line-height: 1.6;
+       
+        justify-content: center;
+        align-items: center;
+       width: 700px;
+       text-align: center;
+        
+    }
+    .a{
+        font-size: 13px;
+                    padding: 10px;
+                   
+                    margin: 10px 0px;
+                    display: inline-block;
+background-color: #fff;
+color: black;
+;
+
+    }
+    .a a:hover{
+        background-color: black;
+        color: #fff;
+        
+    }
+   
+   
